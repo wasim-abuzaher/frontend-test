@@ -8,7 +8,7 @@ Use React w/ TypeScript to implement the following mock-up. You will need to lev
 
 ![Superformula-front-end-test-mockup](./mockup.png)
 
-Use this Figma file to see button states, colors, and responsive design.  You should be sure to complete the test to mimic the design as seen.
+Use this Figma file to see button states, colors, and responsive design. You should be sure to complete the test to mimic the design as seen.
 
 > [Source Figma file](https://www.figma.com/file/4MqQhKPsnKetTud9tm6kDY/Superformula-FE-test-264388d?node-id=0%3A1)
 
@@ -50,47 +50,47 @@ Detail View
 
 ### Functionality
 
-- The filter navigation needs to be able to perform real time filtering on both client side data, as well as server side queries.
-- Yelp's `/businesses/search` endpoint requires a `location`, please use `Las Vegas`
-- `Categories` can be pre-filled from the [Categories endpoint](https://www.yelp.com/developers/documentation/v3/all_categories)
-- The items should always show 4-6 items per row depending on viewport size. Use your own judgement for when to change per breakpoints.
-- Please see the [Yelp documentation](https://www.yelp.com/developers/documentation/v3) for more details.
+-   The filter navigation needs to be able to perform real time filtering on both client side data, as well as server side queries.
+-   Yelp's `/businesses/search` endpoint requires a `location`, please use `Las Vegas`
+-   `Categories` can be pre-filled from the [Categories endpoint](https://www.yelp.com/developers/documentation/v3/all_categories)
+-   The items should always show 4-6 items per row depending on viewport size. Use your own judgement for when to change per breakpoints.
+-   Please see the [Yelp documentation](https://www.yelp.com/developers/documentation/v3) for more details.
 
 ### Tech stack
 
-- TypeScript oriented (JavaScipt can be used, but we strongly prefer TypeScript)
-  - Use **React**
-  - _Do not_ use any React boilerplate, such as Create React App
-- Feel free to use a preprocessor, CSS-in-JS, or JSS tool but _do not_ use any pre-styled frameworks or libraries
-  - The general rule of thumb is: you should write your own styling for your components, do not use "pre-made" tools and utilities
-  - There are a few reasons we do this:
-    - we care about pixel perfect implementation
-    - we want to see your understanding of CSS and styling practices
-  - USE:
-    - Styled-Components
-    - Emotion
-    - SCSS
-    - SASS
-    - LESS
-    - CSS
-  - AVOID:
-    - Tailwind
-    - Bootstrap
-    - Material UI
-    - Semantic UI
+-   TypeScript oriented (JavaScipt can be used, but we strongly prefer TypeScript)
+    -   Use **React**
+    -   _Do not_ use any React boilerplate, such as Create React App
+-   Feel free to use a preprocessor, CSS-in-JS, or JSS tool but _do not_ use any pre-styled frameworks or libraries
+    -   The general rule of thumb is: you should write your own styling for your components, do not use "pre-made" tools and utilities
+    -   There are a few reasons we do this:
+        -   we care about pixel perfect implementation
+        -   we want to see your understanding of CSS and styling practices
+    -   USE:
+        -   Styled-Components
+        -   Emotion
+        -   SCSS
+        -   SASS
+        -   LESS
+        -   CSS
+    -   AVOID:
+        -   Tailwind
+        -   Bootstrap
+        -   Material UI
+        -   Semantic UI
 
 ### Bonus
 
-- Make the application accessible
-- Also create mobile version included in Figma comp
-- Write clear **documentation** on how the app was designed and how to run the code
-- Implement useful testing
-- Provide components in [Storybook](https://storybook.js.org) (we use Storybook, buy any component display tool of your choice if fine!)
-- Use Yelp's [Graph QL](https://www.yelp.com/developers/graphql/guides/intro) endpoint
-- Write concise and clear commit messages
-- Provide an online demo of the application
-- Include subtle animations to focus attention
-- Describe improvement opportunities when you conclude
+-   Make the application accessible
+-   Also create mobile version included in Figma comp
+-   Write clear **documentation** on how the app was designed and how to run the code
+-   Implement useful testing
+-   Provide components in [Storybook](https://storybook.js.org) (we use Storybook, buy any component display tool of your choice if fine!)
+-   Use Yelp's [Graph QL](https://www.yelp.com/developers/graphql/guides/intro) endpoint
+-   Write concise and clear commit messages
+-   Provide an online demo of the application
+-   Include subtle animations to focus attention
+-   Describe improvement opportunities when you conclude
 
 ## What We Care About
 
@@ -100,11 +100,11 @@ are more important than using the "right" library._
 
 Here's what you should strive for:
 
-- Good use of current TypeScript, HTML, CSS, and performance best practices
-- Solid testing approach
-- Extensible code
-- Mobile support and accessibility
-- Thorough explanation of decisions and tradeoffs
+-   Good use of current TypeScript, HTML, CSS, and performance best practices
+-   Solid testing approach
+-   Extensible code
+-   Mobile support and accessibility
+-   Thorough explanation of decisions and tradeoffs
 
 ## Q&A
 
