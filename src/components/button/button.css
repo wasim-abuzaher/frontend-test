@@ -1,0 +1,40 @@
+.button {
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid #002b56;
+    letter-spacing: 1px;
+    height: 48px;
+    width: 304px;
+}
+
+.button:hover,
+.button:focus {
+    outline: none;
+}
+
+.button-standard {
+    background-color: #002b56;
+    color: #fff;
+}
+
+.button-outlined {
+    color: #002b56;
+    background-color: #fff;
+}
+
+.button-disabled {
+    border: 1px solid #E6E6E6;
+    cursor: not-allowed;
+}
+
+.button-standard.button-disabled {
+    background-color: #E6E6E6;
+    color: #C8C8C8;
+}
+
+.button-outlined.button-disabled {
+    background-color: #fff;
+    color: #C8C8C8;
+}
