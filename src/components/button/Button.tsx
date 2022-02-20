@@ -3,7 +3,7 @@ import './button.css';
 import clsx from 'clsx';
 
 interface ButtonProps {
-    onClick: () => void;
+    onClick: (e:  React.MouseEvent<HTMLButtonElement>) => void;
     variant?: 'standard' | 'outlined';
     disabled?: boolean;
 }
