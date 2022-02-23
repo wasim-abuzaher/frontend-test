@@ -1,3 +1,5 @@
+@import "../../theme.css";
+
 .ring {
     display: inline-block;
     position: relative;
@@ -14,7 +16,7 @@
     border: 8px solid;
     border-radius: 50%;
     animation: ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: #002b56 transparent transparent transparent;
+    border-color: var(--primary-color) transparent transparent transparent;
 }
 .ring div:nth-child(1) {
     animation-delay: -0.45s;

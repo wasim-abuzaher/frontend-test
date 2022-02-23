@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Spinner from './components/spinner/Spinner';
+import Rating from './components/rating/Rating';
 
-ReactDOM.render(<Spinner />, document.getElementById('app-root'));
+ReactDOM.render(<Rating rating={4.5} />, document.getElementById('app-root'));
