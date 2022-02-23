@@ -14,27 +14,27 @@
     outline: none;
 }
 
-.button-standard {
+.standard {
     background-color: #002b56;
     color: #fff;
 }
 
-.button-outlined {
+.outlined {
     color: #002b56;
     background-color: #fff;
 }
 
-.button-disabled {
+.disabled {
     border: 1px solid #E6E6E6;
     cursor: not-allowed;
 }
 
-.button-standard.button-disabled {
+.standard.disabled {
     background-color: #E6E6E6;
     color: #C8C8C8;
 }
 
-.button-outlined.button-disabled {
+.outlined.disabled {
     background-color: #fff;
     color: #C8C8C8;
 }
